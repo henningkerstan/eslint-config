@@ -7,12 +7,17 @@ My personal configuration for [ESLint](https://eslint.org).
 npm i --save-dev @henningkerstan/eslint-config
 ```
 
-2. Modify `package.json` and add the following configuration
+2. Add `.eslintrc.js` with the following content
 ```
-"eslintConfig": {
-  "extends": "@henningkerstan/eslint-config"
+module.exports = {
+  extends: ['@henningkerstan/eslint-config'],
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+    project: ['./tsconfig.json'],
+  },
 }
 ```
+For more information or a custom configuration, have a look at https://github.com/typescript-eslint/typescript-eslint/blob/HEAD/docs/getting-started/linting/TYPED_LINTING.md
 
 ## License
 Copyright 2021 [Henning Kerstan](https://henningkerstan.de)
