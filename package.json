@@ -1,0 +1,33 @@
+{
+  "name": "@henningkerstan/eslint-config",
+  "version": "0.0.0",
+  "description": "My personal configuration for eslint",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henningkerstan/eslint-config"
+  },
+  "author": "Henning Kerstan <mail@henningkerstan.de>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepublishOnly": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC\""
+  },
+  "devDependencies": {
+    "@henningkerstan/prettier-config": "^1.0.0",
+    "license-checker": "^25.0.1",
+    "np": "^7.5.0",
+    "prettier": "^2.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": "@henningkerstan/prettier-config",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0"
+  }
+}
