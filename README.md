@@ -7,8 +7,8 @@ My personal configuration for [ESLint](https://eslint.org).
 npm i --save-dev @henningkerstan/eslint-config
 ```
 
-2. Add `.eslintrc.js` with the following content
-```
+2. Add a file `.eslintrc.js` with the following content
+```javascript
 module.exports = {
   extends: ['@henningkerstan/eslint-config'],
   parserOptions: {

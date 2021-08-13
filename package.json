@@ -1,7 +1,7 @@
 {
   "name": "@henningkerstan/eslint-config",
   "version": "0.0.1",
-  "description": "My personal configuration for eslint",
+  "description": "My personal configuration for ESLint.",
   "files": [
     "index.js"
   ],
