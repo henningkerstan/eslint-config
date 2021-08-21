@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@henningkerstan/prettier-config": "^1.0.0",
+    "eslint-plugin-prettier": "^3.4.1",
     "license-checker": "^25.0.1",
     "np": "^7.5.0",
     "prettier": "^2.3.2"
