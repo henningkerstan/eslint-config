@@ -1,6 +1,6 @@
 {
   "name": "@henningkerstan/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My personal configuration for ESLint.",
   "files": [
     "index.js"
@@ -30,5 +30,8 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0"
   },
-  "keywords": ["eslint", "eslintconfig"]
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
 }
