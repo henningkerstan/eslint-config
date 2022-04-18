@@ -17,19 +17,19 @@
   },
   "devDependencies": {
     "@henningkerstan/prettier-config": "^1.0.0",
-    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "license-checker": "^25.0.1",
-    "np": "^7.5.0",
-    "prettier": "^2.3.2"
+    "np": "^7.6.1",
+    "prettier": "^2.6.2"
   },
   "publishConfig": {
     "access": "public"
   },
   "prettier": "@henningkerstan/prettier-config",
   "dependencies": {
-    "@typescript-eslint/parser": "^4.29.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0"
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0"
   },
   "keywords": [
     "eslint",
