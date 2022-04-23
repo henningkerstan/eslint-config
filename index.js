@@ -55,7 +55,7 @@ module.exports = {
 
       // enum members must be in PascalCase
       {
-        selector: 'enumMembers',
+        selector: 'enumMember',
         format: ['PascalCase'],
       },
     ],
