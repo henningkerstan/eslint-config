@@ -47,9 +47,15 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
 
-      // default for types is PascalCase
+      // types must be in PascalCase
       {
         selector: 'typeLike',
+        format: ['PascalCase'],
+      },
+
+      // enum members must be in PascalCase
+      {
+        selector: 'enumMembers',
         format: ['PascalCase'],
       },
     ],
