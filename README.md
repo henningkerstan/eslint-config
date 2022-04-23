@@ -17,6 +17,7 @@ and extends them as explained below.
 
 - The default is to use camelCase and leading or trailing underscores are forbidden.
 - Types and enum members must be in PascalCase.
+- Private member variables may use a leading underscore.
 
 ### Other
 
