@@ -1,6 +1,6 @@
 {
   "name": "@henningkerstan/eslint-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "My personal configuration for ESLint.",
   "files": [
     "index.js"
@@ -16,20 +16,20 @@
     "prepublishOnly": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC;Python-2.0\""
   },
   "devDependencies": {
-    "@henningkerstan/prettier-config": "^1.0.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "@henningkerstan/prettier-config": "^1.0.1",
+    "eslint-plugin-prettier": "^5.2.5",
     "license-checker": "^25.0.1",
-    "np": "^7.6.1",
-    "prettier": "^2.6.2"
+    "np": "^10.2.0",
+    "prettier": "^3.5.3"
   },
   "publishConfig": {
     "access": "public"
   },
   "prettier": "@henningkerstan/prettier-config",
   "dependencies": {
-    "@typescript-eslint/parser": "^5.19.0",
-    "eslint": "^8.13.0",
-    "eslint-config-prettier": "^8.5.0"
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1"
   },
   "keywords": [
     "eslint",
