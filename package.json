@@ -13,7 +13,8 @@
   "author": "Henning Kerstan <mail@henningkerstan.de>",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC;Python-2.0\""
+    "prepublishOnly": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC;Python-2.0\"",
+    "test": ""
   },
   "devDependencies": {
     "@henningkerstan/prettier-config": "^1.0.1",
